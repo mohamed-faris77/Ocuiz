@@ -1,36 +1,5 @@
 # 📦 Logistics ERP - Booking Management System
 
-A modern, premium web application for managing logistics bookings with an intuitive user interface and seamless user experience.
-
-![Logistics ERP](https://img.shields.io/badge/React-18.3-blue?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue?logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-blue?logo=tailwindcss)
-![Vite](https://img.shields.io/badge/Vite-6.0-purple?logo=vite)
-
-## 🎯 Features
-
-✨ **Modern UI/UX**
-- Premium glassmorphism design
-- Smooth animations and transitions
-- Gradient color schemes
-- Responsive layout for all devices
-
-📝 **Smart Form**
-- Real-time validation with inline error messages
-- Auto-calculation of shipping costs
-- Required field indicators
-- Keyboard-friendly navigation
-
-🎨 **Design System**
-- Custom CSS variables for easy theming
-- Reusable UI components
-- Consistent spacing and typography
-- Modern Inter font family
-
-📱 **Fully Responsive**
-- Desktop: 2-column grid layout
-- Tablet: Optimized spacing
-- Mobile: Stacked single-column layout
 
 ## 🛠 Tech Stack
 
@@ -38,7 +7,6 @@ A modern, premium web application for managing logistics bookings with an intuit
 - **Build Tool**: Vite 6.0
 - **Styling**: Tailwind CSS + Custom CSS
 - **Form Management**: React Hook Form
-- **Icons**: Inline SVG icons
 - **Fonts**: Google Fonts (Inter)
 
 ## 📁 Project Structure
@@ -78,7 +46,7 @@ LogisticsERP/
 ### Prerequisites
 
 - Node.js (v18 or higher)
-- npm or yarn
+- npm
 
 ### Installation
 
@@ -101,20 +69,6 @@ LogisticsERP/
    
    The app will be running at `http://localhost:5173`
 
-### Build for Production
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-To preview the production build:
-
-```bash
-npm run preview
-```
-
 ## 📋 Form Fields & Validation
 
 ### Sender Details
@@ -130,24 +84,6 @@ npm run preview
 - **Weight (kg)** (required): Number > 0
 - **Rate per kg (INR)** (required): Number > 0
 - **Total Shipping Cost** (auto-calculated): Weight × Rate
-
-## 🎨 Design Features
-
-### Color Palette
-- **Primary**: Purple gradient (#667eea to #764ba2)
-- **Accent Colors**: Pink, Orange, Teal
-- **Neutrals**: Gray scale from 50 to 900
-
-### Animations
-- Fade-in effects on page load
-- Slide-up transitions for form elements
-- Hover effects on interactive elements
-- Smooth focus transitions
-
-### Responsive Breakpoints
-- **Desktop**: ≥ 1024px (2-column grid)
-- **Tablet**: 768px - 1023px
-- **Mobile**: < 768px (stacked layout)
 
 ## 🧪 Testing the App
 
@@ -177,55 +113,3 @@ npm run preview
 - Page-level components in `pages/`
 - Clean separation of concerns
 - Modular CSS with component-specific styles
-
-### No Backend Integration
-- Console logging for form submission
-- No API calls or backend dependencies
-- Ready for backend integration when needed
-
-## 📸 Screenshots
-
-*Desktop View*: Modern glassmorphism design with gradient background
-*Mobile View*: Fully responsive stacked layout
-
-## 🚧 Future Enhancements
-
-- [ ] Toast notifications instead of alerts
-- [ ] Form data persistence (localStorage)
-- [ ] Print booking receipt
-- [ ] Export to PDF
-- [ ] Backend API integration
-- [ ] Authentication system
-- [ ] Booking history dashboard
-- [ ] Search and filter bookings
-
-## 👨‍💻 Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-### Code Style
-
-- ESLint configured for React + TypeScript
-- Consistent formatting with Prettier (optional)
-- Component-based architecture
-- CSS modules pattern
-
-## 📄 License
-
-This project is created as part of a frontend engineering assessment.
-
-## 🙏 Acknowledgments
-
-- React Team for the amazing framework
-- Vite for lightning-fast development
-- Tailwind CSS for utility-first styling
-- React Hook Form for form management
-
----
-
-**Built with ❤️ using React, TypeScript, and modern web technologies**
